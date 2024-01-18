@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package animal.v1;
+
+option go_package = "github.com/kiyani-org/proto-buf/gen/aniaml/v1;animalpb";
+
+message Animal {
+  string uuid       = 1;
+}
